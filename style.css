@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Nunito", sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(253, 244, 233);
+    padding-bottom: 10vh;
+}
+
+.wrapper nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    height: 10vh;
+    /* background-color: aqua; */
+}
+
+.logo {
+    display: flex;
+    gap: 4px;
+    margin-left: 6.5%;
+    align-items: center;
+}
+
+.logoTextLeft p{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.logoTextRight p{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.manuMid{
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.manuRight{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right:6.5% ;
+}
+
+.manuRight .cartIcon{
+    margin-left: 1vw;
+}
+
+.manuRight .signInSignUp{
+    display: flex;
+    gap: 1vw;
+    margin-left: 1vw;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.topic{
+    margin-top: 3%;
+    margin-left:6.5% ;
+    /* margin-bottom: 100px; */
+    height: 10vh;
+    /* background-color:rgba(163, 76, 163, 0.734) ; */
+    font-size: 24px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 87vw;
+    margin: 0 auto;
+    /* background-color: coral; */
+    gap: 40px;
+
+
+}
+
+.leftMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    /* background-color: aqua; */
+    gap: 20px;
+}
+
+.upperLeftMain{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.upperLeftMain_left{
+    width: 15%;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.upperLeftMain_mid{
+    /* align-items: center; */
+    /* border: 1px dashed; */
+    width: 30%;
+
+}
+
+.fileIconUpperCover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    padding:  5%;
+    height: 80%;
+    background-color: #89d1bf;
+    margin-top: 10%;
+    border-radius: 15px;
+}
+
+.fileIconUpper{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.textGoogleDoc p{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.textUnderGoogleDoc p{
+    color: white;
+    font-size: 16px;
+}
+
+.upperLeftMain_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    
+    width: 45%;
+    padding: 0 5%;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.bubbleAndSelectTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px dashed red; */
+    /* width: 200px; */
+}
+
+.bubbleTop{
+    display: flex;
+    gap: 5px;
+}
+/* 
+.selectionTop select{
+    width: 100px;
+} */
+
+
+
+.lowerLeftMain{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.lowerLeftMain_left{
+    width: 15%;
+    /* border: 1px dashed; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lowerLeftMain_mid{
+    width: 30%;
+    
+}
+
+.fileIconLowerCover{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    height: 80%;
+    padding: 5%;
+    margin-top: 10%;
+    background-color: #e98b53;
+    border-radius: 15px;
+}
+
+.fileIconLower{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.textGoogleSlide p{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.textUnderGoogleSlide p{
+    color: white;
+    font-size: 16px
+}
+
+.lowerLeftMain_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    width: 45%;
+    padding: 0 5%;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.bubbleAndSelectBot{
+    display: flex;
+    justify-content: space-between;
+    /* width: 200px; */
+}
+
+.bubbleBot{
+    display:flex ;
+    gap: 2px;
+}
+
+/* .seclectionBot select{
+    width: 100px;
+} */
+
+.rightMain{
+    width: 650px;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* border: 5px dashed orchid; */
+    
+}
+
+.rightMainUpper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid silver;
+    border-bottom: none;
+    border-radius: 15px 15px 0 0;
+    height: 47%;
+    justify-content: space-around;
+    padding: 3%;
+}
+
+.upperTop p{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.upperMid {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.subTotal p{
+    font-size: 20px;
+    color: rgb(154, 154, 154);
+}
+
+.SubTotalValue p{
+    font-size: 20px;
+    color: rgb(112, 112, 112);
+    font-weight: 600;
+}
+.upperBot{
+    display: flex;
+    width: 100%;
+    gap: 8px;
+    height: 6vh;
+    /* border: 1px dashed red; */
+}
+
+.upperBot .couponIcon{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.upperBot .promotionSlot{
+    width: 60%;
+    /* border: 1px dashed black; */
+
+}.promotionSlot input{
+    height: 100%;
+    border-radius:5px ;
+    border: 1px solid silver;
+}
+
+.applyButton button{
+    height: 100%;
+    border: 2px solid #00dab4;
+    color: #00dab4;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.ruler{
+    width: 80%;
+    margin: 0 auto;
+    border-top: 1px solid silver;
+    /* margin-top:3% ; */
+}   
+
+.promotionSlot input{
+    width: 100%;
+}
+
+.upperBot .applyButton{
+    width: 30%;
+}
+
+.applyButton button{
+    width: 100%;
+}
+
+.rightMainlower{
+    height: 45%;
+    border: 1px solid silver;
+    border-radius: 0 0 15px 15px;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3%;
+}
+
+.lowerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.totalPayment p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.totalPaymentValue p{
+    font-size: 28px;
+    font-weight: 800;
+    color: #00dab4;
+}
+
+.lowerBot button{
+    width: 100%;
+    height: 7vh;
+    background-color:#00dab4 ;
+    border: 1px solid #00dab4;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+
+
+
